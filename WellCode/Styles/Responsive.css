@@ -1,0 +1,182 @@
+@media (max-width: 380px){
+ .yelpcamp__img{
+       width: 30rem;
+}
+.spense__img {
+    width:30rem;
+}
+}
+
+@media (min-width: 576px) {
+    .logo {
+        min-height: 3rem;
+        width: 10rem;
+    }
+
+    .logos__img-visa{
+        max-height: 2.5rem;
+        margin-top: 0.7rem;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .nav__btn-line {
+        display: none;
+    }
+
+    .menu{
+        display:flex;
+    }
+
+    .logos {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+    }
+
+    .logo {
+        height: 4rem;
+        width: 11rem;
+    }
+
+    .logos__img-visa{
+        height: 3rem;
+    }
+
+    .logos__img-samsung{
+        min-width: 11rem;
+        min-height: 5rem;
+    }
+
+}
+
+@media (min-width: 992px) {
+
+    .header__link-desktop {
+        display: block;
+        float: right;
+    }
+
+    
+    .yelpcamp__img{
+        max-width: 45rem;
+        max-height: 26rem;
+    }
+
+    .spense__img{
+        max-width: 45rem;
+        max-height: 26rem;
+    }
+    .logos{
+        max-width: 1024px;
+        margin: 0 auto;
+        grid-template-columns: repeat(6, 1fr); }
+
+    .logos__img-samsung{
+            min-width: 11rem;
+            min-height: 5rem;
+     }
+    
+     .sy  { 
+        max-width: 103rem;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+
+        
+}
+
+@media (min-width: 1220px) {
+    
+
+    .co-founder__leftside {
+        
+        min-width: 52rem;
+    }
+
+    
+
+
+    .co-founder__rightside{ 
+        min-width: 52rem;
+    }
+    .logos{
+    max-width: 1200px;
+    padding-left: 0;
+    padding-right: 0; }
+
+
+    .sy {
+        max-width: 125rem;      
+    }
+
+    .yelpcamp__img{
+        min-width: 50rem;
+        min-height: 30rem;
+    }
+
+    .spense__img{
+        min-width: 50rem;
+        min-height: 30rem;
+    }
+  
+}
+
+@media (min-width: 1400px) {
+    
+    
+    
+
+    :root {
+        --p-size: 1.5rem;
+        --h2-size: 2.6rem;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .header__link-desktop{
+        display: none;
+    }
+
+   
+}
+
+@media (max-width: 991px) and (min-width:576px) {
+    .sy{
+        justify-content: center;
+    }
+
+    .co-founder {
+        justify-content: center;
+    }
+    }
+
+@media (max-width: 992px) {
+        .yelpcamp{
+        padding-top:4rem ;
+}}
+    
+@media (max-width: 620px) {
+.yelpcamp__img{
+    max-width: 37rem;
+    max-height: 24rem;
+}
+
+.spense__img{
+    max-width: 37rem;
+    max-height: 24rem;
+}
+
+}
+@media (max-width: 380px){
+ .yelpcamp__img{
+       width: 30rem;
+}
+.spense__img {
+    width:30rem;
+}
+}
+
